@@ -1,0 +1,14 @@
+backend:
+    functions:
+        - entry: app.py
+          handler: handler
+          name: serverless
+          path: .
+          type: aws
+    language:
+        name: python
+        packageManager: pip
+    path: .
+name: copper-statutory-canid
+region: eu-central-1
+yamlVersion: 2
